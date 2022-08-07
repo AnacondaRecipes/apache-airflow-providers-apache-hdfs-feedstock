@@ -13,6 +13,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
   skip: True  # [py<37]
+  skip: True  # [linux and s390x]
 
 requirements:
   host:
