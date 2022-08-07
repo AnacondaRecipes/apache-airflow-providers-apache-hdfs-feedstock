@@ -14,12 +14,14 @@ build:
   number: 0
   skip: True  # [py<37]
   skip: True  # [linux and s390x]
+  # trigger: 0
 
 requirements:
   host:
     - python
     - pip
     - setuptools
+
   run:
     - python
     - apache-airflow >=2.2.0
